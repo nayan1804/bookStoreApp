@@ -17,6 +17,8 @@ const App = () => {
     <Route path="/course" element={<Courses />} />
     <Route path="/signup" element={<Signup />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="*" element={<Home />} />
+
   </Routes>  {/* This is the new way to use React Router */}
 </BrowserRouter>
   </div>
